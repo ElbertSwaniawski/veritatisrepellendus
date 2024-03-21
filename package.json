@@ -1,0 +1,21 @@
+{
+  "name": "veritatisrepellendus",
+  "version": "1.0.0",
+  "description": "A modest little Typescript helper library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElbertSwaniawski/veritatisrepellendus.git"
+  },
+  "main": "./dist/index.js",
+  "browser": "./src/index.ts",
+  "sideEffects": false,
+  "author": "MillerBeatty",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc",
+    "prepublishOnly": "npm run compile"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
